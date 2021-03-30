@@ -1,0 +1,145 @@
+.home{
+    background-image: url(foodimg.jpg);
+    height:100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+.title{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+.title h1{
+    color:white;
+    font-size: 70px;
+    height:60%;
+    padding-bottom: 100px;
+    
+}
+font{
+    font-style: italic;
+    font-weight: bolder;
+}
+.flo{
+    position: absolute;
+    top: 60%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+.flo h4{
+
+    color:rgb(240, 229, 229);
+}
+
+.about{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:darkgrey;
+}
+.text{
+    background: url(11.jpg) no-repeat left;
+    background-size: 55%;
+    background-color: floralwhite;
+    overflow: hidden;
+    padding: 150px 0;
+
+}
+.align{
+    
+    width:55%;
+    float: right;
+    background-color: grey;
+    padding: 150px;
+    
+}
+.align h4{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+
+}
+
+
+.align{
+    
+    width:55%;
+    float: right;
+    background-color: grey;
+    padding: 150px;
+    
+}
+.align h4{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+
+}
+
+p{
+    font-size: 13px;
+    color: black;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+
+}
+.container{
+    max-width: 100%;
+    margin: auto;
+    background:gainsboro;
+    overflow: auto;
+}
+.gallery{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 390px;
+}
+.gallery img{
+    width: 100%;
+    height: auto;
+    margin-block: 30px;
+    
+}
+.container h5{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-size: 50px;
+    font-weight:900
+}
+
+    .contact{
+        max-width: 100%;
+        margin: auto;
+        background:grey;
+        overflow: auto;
+    }
+    .get{
+        margin-left: 400px;
+
+    float: left;
+    width: 500px;
+    color:lavender
+}
+.get h5{
+    
+    font-weight:900;
+    font-size: 50px;
+    align-content:inherit;
+    color:lavender
+}
+    
+.get button{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: 500;
+margin-left: 25px;
+padding: 10px;
+border-radius: 50px;
+}
